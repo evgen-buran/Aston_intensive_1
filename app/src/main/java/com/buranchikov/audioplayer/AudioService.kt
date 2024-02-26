@@ -239,7 +239,6 @@ class AudioService : Service() {
         }
         return notification!!
     }
-
     private fun previous() {
         if (currentFileIndex > 0) {
             currentFileIndex--
