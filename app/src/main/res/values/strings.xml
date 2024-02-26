@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Aston Audio Player</string>
+    <string name="foreground_audio_channel">Foreground Audio Channel</string>
+    <string name="now_playing">Now playing:</string>
+    <string name="previous_track">Previous track</string>
+    <string name="next_track">Next track</string>
+    <string name="close_notif_symbol">✖ close</string>
+    <string name="play">play</string>
+    <string name="pause">pause</string>
+    <string name="next">next</string>
+    <string name="prev">prev</string>
+    <string name="android_resource">android.resource://</string>
+    <string name="empty_string">"           "</string>
+</resources>

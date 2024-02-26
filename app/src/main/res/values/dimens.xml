@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="app_margin">8dp</dimen>
+    <dimen name="corner_radius_list">12dp</dimen>
+    <dimen name="buttons_corner">8dp</dimen>
+    <dimen name="text_size_track_item">16sp</dimen>
+    <dimen name="buttons_margin">3dp</dimen>
+    <dimen name="track_list_padding">16dp</dimen>
+    <dimen name="title_size">24sp</dimen>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="arrayMP3" >
+        <item>hotel_california</item>
+        <item>house_of_the_rising_sun</item>
+        <item>chi_mai</item>
+
+    </array>
+</resources>
