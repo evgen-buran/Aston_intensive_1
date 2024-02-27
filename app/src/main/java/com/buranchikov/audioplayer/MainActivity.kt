@@ -59,17 +59,13 @@ class MainActivity : AppCompatActivity(), OnClickListener {
     }
     companion object {
         fun startServiceWithAction(action: String) {
-
-
             val serviceIntent = Intent(APP_ACTIVITY, AudioService::class.java)
             serviceIntent.action = action
-            Log.d("df", "startServiceWithAction: ")
             if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
                 APP_ACTIVITY.startForegroundService(serviceIntent)
             } else {
                 APP_ACTIVITY.startService(serviceIntent)
             }
         }
-
     }
 }

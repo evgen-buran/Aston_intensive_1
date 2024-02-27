@@ -14,15 +14,9 @@ class PlayerReceiver : BroadcastReceiver() {
     override fun onReceive(context: Context?, intent: Intent?) {
         when (intent?.action) {
             ACTION_PLAY ->MainActivity.startServiceWithAction(ACTION_PLAY)
-
             ACTION_PAUSE ->MainActivity.startServiceWithAction(ACTION_PAUSE)
-
             ACTION_NEXT ->MainActivity.startServiceWithAction(ACTION_NEXT)
-
             ACTION_PREVIOUS ->MainActivity.startServiceWithAction(ACTION_PREVIOUS)
-
-
-
         }
     }
 }
